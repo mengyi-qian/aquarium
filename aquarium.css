@@ -1,0 +1,547 @@
+#location-1 {
+  width:80vw;
+  height:25vh;
+  position: absolute;
+  bottom: -12vh;
+  left: -1vw;
+  border-radius: 30% 70% 0 0;
+}
+
+#location-2 {
+  width:80vw;
+  height:20vh;
+  position: absolute;
+  bottom: -2vh;
+  right: -1vw;
+  border-radius: 60% 40% 0 0;
+}
+
+#location-3 {
+  width: 70vw;
+  height: 25vh;
+  position: absolute;
+  bottom: -2vh;
+  left: -10vw;
+  border-radius: 0% 80% 0 0;
+}
+
+/* #fishA {
+  left: 500px;
+  top: 400px;
+  position: absolute;
+}
+
+.fishA-body {
+  width: 200px;
+  height: 70px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: skyblue;
+  border: 1px solid black;
+}
+
+.fishA-tail1 {
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  left: 130px;
+  top: 28px;
+  border-radius: 100%;
+  background-color: skyblue;
+  transform: rotate(30deg);
+  border: 1px solid black;
+}
+
+.fishA-tail2 {
+  width: 100px;
+  height: 25px;
+  position: absolute;
+  left: 155px;
+  top: 15px;
+  border-radius: 100%;
+  background-color: skyblue;
+  transform: rotate(-22deg);
+  border: 1px solid black;
+} */
+
+
+
+
+/* FISH */
+
+.fishA {
+  width: 320px;
+  height: 83px;
+  position: absolute;
+}
+
+.fishA .fishA-body {
+  width: 74%;
+  height: 100%;
+  left: 0;
+  top: 12%;
+  position: absolute;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.fishA .fishA-tail1 {
+  width: 38%;
+  height: 29%;
+  position: absolute;
+  right: 11%;
+  bottom: 17%;
+  border-radius: 100%;
+  transform: rotate(30deg);
+  border: 1px solid black;
+}
+
+.fishA .fishA-tail2 {
+  width: 38%;
+  height: 36%;
+  position: absolute;
+  right: 2%;
+  top: 27%;
+  border-radius: 100%;
+  transform: rotate(-20deg);
+  border: 1px solid black;
+}
+
+.fishB {
+  width: 350px;
+  height: 56px;
+  position: absolute;
+  -webkit-animation: swimB 12s infinite;
+}
+
+.fishB .fishB-body {
+  width: 92%;
+  height: 100%;
+  left: 0;
+  top: 0%;
+  position: absolute;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.fishB .fishB-tail {
+  width: 8%;
+  height: 120%;
+  position: absolute;
+  right: 0%;
+  top: -17%;
+  border-radius: 100%;
+  transform: rotate(-40deg);
+  border: 1px solid black;
+}
+
+.fishC {
+  width: 280px;
+  height: 112px;
+  position: absolute;
+  -webkit-animation: swimC 8s infinite linear;
+}
+
+.fishC .fishC-body {
+  width: 70%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.fishC .fishC-tail1 {
+  width: 42%;
+  height: 45%;
+  position: absolute;
+  right: -10%;
+  top: 30%;
+  border-radius: 100%;
+  transform: rotate(10deg);
+  border: 1px solid black;
+}
+
+.fishC .fishC-tail2 {
+  width: 58%;
+  height: 53%;
+  position: absolute;
+  right: -16%;
+  top: 68%;
+  border-radius: 100%;
+  transform: rotate(50deg);
+  border: 1px solid black;
+}
+
+.fishC .fishC-tail2-copy {
+  width: 58%;
+  height: 53%;
+  position: absolute;
+  right: calc(-16% + 1px);
+  top: calc(68% + 1px);
+  border-radius: 100%;
+  transform: rotate(50deg);
+}
+
+.fishD {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  -webkit-animation: swimD 18s infinite linear;
+}
+
+.fishD .fishD-body {
+  width: 69%;
+  height: 100%;
+  left: 0;
+  top: 0%;
+  position: absolute;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.fishD .fishD-tail {
+  width: 30%;
+  height: 40%;
+  position: absolute;
+  right: 0%;
+  top: 30%;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+/* PLANT */
+
+.plantA {
+  position: absolute;
+}
+
+.plantA .plantA-body {
+  width: 54px;
+  height: 330px;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 27px;
+}
+
+.plantA .plantA-arm1 {
+  width: 54px;
+  height: 150px;
+  position: absolute;
+  left: -45px;
+  top: 120px;
+  border-radius: 27px;
+  transform: rotate(-30deg);
+  border: 1px solid black;
+}
+
+.plantA .plantA-arm2 {
+  width: 54px;
+  height: 120px;
+  position: absolute;
+  left: 37.5px;
+  top: 60px;
+  border-radius: 27px;
+  transform: rotate(30deg);
+  border: 1px solid black;
+}
+
+.plantA .plantA2 {
+  position: absolute;
+  top: -200px;
+}
+
+.plantA2 .plantA3 {
+  position: absolute;
+  top: -200px;
+}
+
+.plantA3 .plantA4 {
+  position: absolute;
+  top: -200px;
+}
+
+.plantB {
+  position: absolute;
+}
+
+.plantB .plantB-body {
+  width: 54px;
+  height: 150px;
+  position: absolute;
+  border-radius: 27px;
+  border: 1px solid black;
+}
+
+.plantB .plantB-arm1 {
+  width: 54px;
+  height: 120px;
+  position: absolute;
+  left: 7.5px;
+  top: -180px;
+  border-radius: 27px;
+  border: 1px solid black;
+}
+
+.plantB .plantB-arm2 {
+  width: 54px;
+  height: 90px;
+  position: absolute;
+  left: 3px;
+  top: -75px;
+  border-radius: 27px;
+  border: 1px solid black;
+}
+
+.plantB .plantB2 {
+  position: absolute;
+  top: -240px;
+}
+
+.plantC {
+  position: absolute;
+}
+
+.plantC .plantC-body {
+  width: 54px;
+  height: 300px;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 27px;
+}
+
+.plantC .plantC-arm1 {
+  width: 120px;
+  height: 54px;
+  position: absolute;
+  left: -37.5px;
+  top: -7.5px;
+  border-radius: 27px;
+  border: 1px solid black;
+}
+
+.plantC .plantC-arm2 {
+  width: 135px;
+  height: 54px;
+  position: absolute;
+  left: -52.5px;
+  top: 45px;
+  border-radius: 27px;
+  border: 1px solid black;
+}
+
+.plantC .plantC-arm3 {
+  width: 120px;
+  height: 54px;
+  position: absolute;
+  left: -7.5px;
+  top: 90px;
+  border-radius: 27px;
+  border: 1px solid black;
+}
+
+.plantC .plantC-arm4 {
+  width: 105px;
+  height: 54px;
+  position: absolute;
+  left: -24px;
+  top: 135px;
+  border-radius: 27px;
+  border: 1px solid black;
+}
+
+.plantC .plantC2 {
+  position: absolute;
+  top: -190px;
+}
+
+.copy {
+  width: 100%;
+  height:100%;
+  background-color: inherit;
+  position: absolute;
+  border-radius: inherit;
+  z-index: 99;
+}
+
+.shell {
+  width: 80px;
+  height:80px;
+  position: absolute;
+  background: AntiqueWhite;
+  border: 1px solid black;
+  border-radius: 20% 100% 20% 0%;
+}
+
+
+/* MOVEMENT */
+
+
+
+
+
+@keyframes swimB {
+  0% {
+    transform: translateY(200px) translateX(5vw) rotate(5deg) scaleX(-1);
+  }
+  14% {
+    transform: translateY(250px) translateX(85vw) rotate(13deg) scaleX(-1);
+  }
+  17% {
+    transform: translateY(250px) translateX(84vw) rotate(1deg) scaleX(1);
+  }
+  31% {
+    transform: translateY(450px) translateX(2vw) rotate(-15deg) scaleX(1);
+  }
+  34% {
+    transform: translateY(450px) translateX(3vw) rotate(0deg) scaleX(-1);
+  }
+  48% {
+    transform: translateY(600px) translateX(86vw) rotate(17deg) scaleX(-1);
+  }
+  51% {
+    transform: translateY(600px) translateX(87vw) rotate(2deg) scaleX(1);
+  }
+  65% {
+    transform: translateY(320px) translateX(3vw) rotate(14deg) scaleX(1);
+  }
+  68% {
+    transform: translateY(320px) translateX(5vw) rotate(-1deg) scaleX(-1);
+  }
+  82% {
+    transform: translateY(480px) translateX(85vw) rotate(15deg) scaleX(-1);
+  }
+  85% {
+    transform: translateY(480px) translateX(83vw) rotate(1deg) scaleX(1);
+  }
+  99% {
+    transform: translateY(200px) translateX(5vw) rotate(15deg) scaleX(1);
+  }
+  100% {
+    transform: translateY(200px) translateX(5vw) rotate(15deg) scaleX(1);
+  }
+}
+
+
+@keyframes swimC {
+  0% {
+    transform: translateY(500px) translateX(95vw) rotate(0deg) scaleX(1);
+  }
+  10% {
+    transform: translateY(400px) translateX(78vw) rotate(5deg) scaleX(1);
+  }
+  20% {
+    transform: translateY(600px) translateX(60vw) rotate(8px) scaleX(1);
+  }
+  30% {
+    transform: translateY(450px) translateX(42vw) rotate(-5deg) scaleX(1);
+  }
+  40% {
+    transform: translateY(500px) translateX(20vw) rotate(0deg) scaleX(1);
+  }
+  50% {
+    transform: translateY(400px) translateX(5vw) rotate(6deg) scaleX(1);
+  }
+  60% {
+    transform: translateY(400px) translateX(5vw) rotate(0deg) scaleX(-1);
+  }
+  70% {
+    transform: translateY(350px) translateX(26vw) rotate(2deg) scaleX(-1);
+  }
+  80% {
+    transform: translateY(450px) translateX(50vw) rotate(4deg) scaleX(-1);
+  }
+  90% {
+    transform: translateY(480px) translateX(78vw) rotate(-1deg) scaleX(-1);
+  }
+  100% {
+    transform: translateY(500px) translateX(95vw) rotate(0deg) scaleX(1);
+  }
+}
+
+@keyframes swimD {
+  0% {
+    transform: translateY(380px) translateX(35vw) rotate(0deg) scaleX(1);
+  }
+  5% {
+    transform: translateY(340px) translateX(36vw) rotate(0deg) scaleX(1);
+  }v
+  10% {
+    transform: translateY(350px) translateX(40vw) rotate(5deg) scaleX(1);
+  }
+  15% {
+    transform: translateY(380px) translateX(42vw) rotate(5deg) scaleX(1);
+  }
+  20% {
+    transform: translateY(400px) translateX(45vw) rotate(-8px) scaleX(1);
+  }
+  20% {
+    transform: translateY(450px) translateX(51vw) rotate(-8px) scaleX(1);
+  }
+  25% {
+    transform: translateY(450px) translateX(50vw) rotate(-5deg) scaleX(-1);
+  }
+  30% {
+    transform: translateY(405px) translateX(46vw) rotate(10deg) scaleX(-1);
+  }
+  35% {
+    transform: translateY(390px) translateX(41vw) rotate(6deg) scaleX(-1);
+  }
+  40% {
+    transform: translateY(390px) translateX(38vw) rotate(6deg) scaleX(-1);
+  }
+  40% {
+    transform: translateY(380px) translateX(33vw) rotate(0deg) scaleX(-1);
+  }
+  45% {
+    transform: translateY(400px) translateX(37vw) rotate(12deg) scaleX(1);
+  }
+  50% {
+    transform: translateY(450px) translateX(40vw) rotate(14deg) scaleX(1);
+  }
+  55% {
+    transform: translateY(480px) translateX(45vw) rotate(-1deg) scaleX(1);
+  }
+  60% {
+    transform: translateY(520px) translateX(48vw) rotate(-1deg) scaleX(1);
+  }
+  65% {
+    transform: translateY(550px) translateX(51vw) rotate(-1deg) scaleX(1);
+  }
+  70% {
+    transform: translateY(530px) translateX(55vw) rotate(-1deg) scaleX(1);
+  }
+  75% {
+    transform: translateY(500px) translateX(54vw) rotate(-1deg) scaleX(-1);
+  }
+  80% {
+    transform: translateY(440px) translateX(51vw) rotate(-1deg) scaleX(-1);
+  }
+  85% {
+    transform: translateY(440px) translateX(46vw) rotate(-1deg) scaleX(-1);
+  }
+  90% {
+    transform: translateY(440px) translateX(41vw) rotate(-1deg) scaleX(-1);
+  }
+  90% {
+    transform: translateY(440px) translateX(39vw) rotate(-1deg) scaleX(-1);
+  }
+  95% {
+    transform: translateY(440px) translateX(36vw) rotate(-1deg) scaleX(-1);
+  }
+  100% {
+    transform: translateY(380px) translateX(35vw) rotate(0deg) scaleX(1);
+  }
+}
+
+
+
+
+
+
+
+
+.second {
+  bottom: 100%;
+}

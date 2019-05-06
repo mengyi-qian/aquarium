@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="Aquarium.png" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="aquarium.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Yuanbo's Memory</title>
+
+    <style>
+    body {
+      overflow: hidden;
+			margin: 0;
+			background-color: HotPink;
+    }
+
+    #mood {
+      width:100vw;
+			height:80vh;
+      position: absolute;
+      background-image: linear-gradient(to bottom, Gold, Gold, HotPink);
+      z-index: -1;
+    }
+
+    .plantA *, .plantB *, .plantC * {background: Crimson;}
+
+    .fishA * {background: #fff066;}
+    .fishB * {background: #80ffbf;}
+    .fishC * {background: Tomato;}
+    .fishD * {background: #c2adeb;}
+
+    #location-1 {
+      background-color: DeepSkyBlue;
+      border: 1px solid black;
+      z-index: 10;
+    }
+
+    #location-2 {
+      background-color: LightSalmon;
+      border: 1px solid black;
+      z-index: 5;
+    }
+
+    #location-3 {
+      background-color: #97e006;
+      border: 1px solid black;
+      z-index: 0;
+    }
+
+/* plantA - SORROWFUL */
+/* plantB - DELIGHTED */
+/* plantC - ROMANTIC */
+
+    #memory-1 {
+      left: 70vw;
+      top: 50vh;
+      z-index: 4;
+    }
+
+    #memory-2 {
+      left: 80vw;
+      top: 55vh;
+      z-index: 12;
+    }
+
+    #memory-3 {
+      left: 55vw;
+      top: 57vh;
+      z-index: 8;
+    }
+
+/* FISHA - STRANGER */
+/* FISHB - FRIEND */
+/* FISHC - LOVER */
+/* FISHD - FAMILY */
+
+    .fishA {z-index: 10;}
+    .fishB {z-index: 15;}
+    .fishC {z-index: 10;}
+    .fishD {z-index: 6;}
+
+
+    .shell {
+      z-index: 6;
+      top: 73vh;
+      left: 15vw;
+      transform: rotate(-35deg);
+    }
+
+
+	</style>
+
+</head>
+
+<body>
+
+  <a href="gallery.html" class="button-right">
+    <div class="button-text">
+      Gallery
+    </div>
+  </a>
+
+  <a href="index.html" class="button-left">
+    <div class="button-text">
+      Home
+    </div>
+  </a>
+
+
+<div id="mood"></div>
+<div id="location-3"></div>
+<div id="location-2"></div>
+<div id="location-1"></div>
+
+
+
+<!-- <div class="fishA">
+  <div class="fishA-body">
+    <div class="copy"></div>
+  </div>
+  <div class="fishA-tail2">
+    <div class="copy"></div>
+  </div>
+  <div class="fishA-tail1">
+    <div class="copy"></div>
+  </div>
+</div> -->
+
+
+<div class="fishB person-2">
+  <div class="fishB-body">
+    <div class="copy"></div>
+  </div>
+  <div class="fishB-tail">
+    <div class="copy"></div>
+  </div>
+</div>
+
+
+<div class="fishC person-1">
+  <div class="fishC-body">
+    <div class="copy"></div>
+  </div>
+  <div class="fishC-tail2">
+    <div class="copy"></div>
+  </div>
+  <div class="fishC-tail1">
+    <div class="copy"></div>
+  </div>
+  <div class="fishC-tail2-copy"></div>
+</div>
+
+<div class="shell person-3"></div>
+
+
+<!-- <div class="fishD">
+  <div class="fishD-body">
+    <div class="copy"></div>
+  </div>
+  <div class="fishD-tail">
+    <div class="copy"></div>
+  </div>
+</div> -->
+
+
+
+
+
+
+
+<div id="memory-2" class="plantA">
+  <div class="plantA-body">
+    <div class="copy"></div>
+  </div>
+  <div class="plantA-arm1"></div>
+  <div class="plantA-arm2"></div>
+  <div class="plantA2">
+    <div class="plantA-body">
+      <div class="copy"></div>
+    </div>
+    <div class="plantA-arm1"></div>
+    <div class="plantA-arm2"></div>
+    <div class="plantA3">
+      <div class="plantA-body">
+        <div class="copy"></div>
+      </div>
+      <div class="plantA-arm1"></div>
+      <div class="plantA-arm2"></div>
+      <div class="plantA4">
+        <div class="plantA-body">
+          <div class="copy"></div>
+        </div>
+        <div class="plantA-arm1"></div>
+        <div class="plantA-arm2"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="memory-3" class="plantA">
+  <div class="plantA-body">
+    <div class="copy"></div>
+  </div>
+  <div class="plantA-arm1"></div>
+  <div class="plantA-arm2"></div>
+  <div class="plantA2">
+    <div class="plantA-body">
+      <div class="copy"></div>
+    </div>
+    <div class="plantA-arm1"></div>
+    <div class="plantA-arm2"></div>
+  </div>
+</div>
+
+<!-- <div class="plantB">
+  <div class="plantB-body">
+    <div class="copy"></div>
+  </div>
+  <div class="plantB-arm1">
+    <div class="copy"></div>
+  </div>
+  <div class="plantB-arm2">
+    <div class="copy"></div>
+  </div>
+</div> -->
+
+
+<div  id="memory-1" class="plantC">
+  <div class="plantC-body">
+    <div class="copy"></div>
+  </div>
+  <div class="plantC-arm1">
+    <div class="copy"></div>
+  </div>
+  <div class="plantC-arm2">
+    <div class="copy"></div>
+  </div>
+  <div class="plantC-arm3">
+    <div class="copy"></div>
+  </div>
+  <div class="plantC-arm4">
+    <div class="copy"></div>
+  </div>
+</div>
+
+
+
+
+<div id="text-1" class="describe">
+  <button class="close">&#215;</button>
+  <p>
+    We were shearing our common memory happened in Japan. The green memory became pictures, words, chat history, lying in our iphones.
+  </p>
+</div>
+
+<div id="text-2" class="describe">
+  <button class="close">&#215;</button>
+  <p>
+    The day before I fly to the U.S., he came to my home and sent me a ugly gift - a plastic sign board with two ugly Chinese characters on it. But it was sweet, because it means <i>FRIENDSHIP</i>.
+  </p>
+</div>
+
+<div id="text-3" class="describe">
+  <button class="close">&#215;</button>
+  <p>
+    It was so peaceful when I walking in the mountain in Yuzawa, when I was surrounded by trees and air.
+  </p>
+</div>
+
+
+
+
+<div id="photo-1" class="photobox">
+  <button class="close">&#215;</button>
+  <img class="photo" src="photos/Yuanbo1.jpg">
+</div>
+
+<div id="photo-2" class="photobox">
+  <button class="close">&#215;</button>
+  <img class="photo" src="photos/Yuanbo2.jpg">
+</div>
+
+<div id="photo-3" class="photobox">
+  <button class="close">&#215;</button>
+  <img class="photo" src="photos/Yuanbo3.jpg">
+</div>
+
+
+
+
+<script src="jquery.min.js"></script>
+<script src="index.js"></script>
+
+
+
+
+
+</body>
+
+</html>
